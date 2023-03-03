@@ -1,0 +1,23 @@
+#+title: Structure and Interpretation of Computer Programs
+#+author: Andrey Pudov
+#+date: <2023-03-03 Fri>
+
+* Scheme vs Clojure
+** src_scheme{(define)}
+#+begin_src scheme
+(define a 3)
+#+end_src
+#+begin_src clojure
+(def a 3)
+#+end_src
+** src_scheme{(cond)}
+#+begin_src scheme
+(cond ((= a 4) 6)
+      ((= b 4) (+ 6 7 a))
+      (else 25))
+#+end_src
+#+begin_src clojure
+(cond (= a 4) 6
+      (= b 4) (+ 6 7 a)
+      :else 25)
+#+end_src
