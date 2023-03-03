@@ -3,7 +3,7 @@
 ; expression? Assume that the sequence is to be evaluated in
 ; the order in which it is presented.
 
-(ns sicp.solutions.chapter1)
+(ns sicp.solutions.chapter-1)
 
 (println 10)                                      ; 10
 (println (+ 5 3 4))                               ; 12
