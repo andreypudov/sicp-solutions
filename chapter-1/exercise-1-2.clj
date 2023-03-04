@@ -1,5 +1,4 @@
-; Exercise 1.2: Translate the following expression into prefix
-; form:
+; Exercise 1.2: Translate the following expression into prefix form:
 ;
 ; 5 + 4 + (2 - (3 - (6 + 4 / 5)))
 ; -------------------------------
@@ -7,7 +6,7 @@
 
 (ns sicp.solutions.chapter-1)
 
-(println (/ (+ 5                                  ; -37/150
+(println (/ (+ 5                        ; -37/150
                4
                (- 2
                   (- 3
