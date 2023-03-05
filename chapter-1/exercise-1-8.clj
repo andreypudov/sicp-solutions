@@ -26,7 +26,9 @@
   (defn good-enough? [guess improved-guess]
     (< (abs (- improved-guess guess)) 0.0000000001))
   (defn improve [guess x]
-    (/ (+ (/ x (square guess)) (* 2 guess)) 3))
+    (/ (+ (/ x (square guess))
+          (* 2 guess))
+       3))
   (defn cube-root-iter [guess x]
     (let [improved-guess (improve guess x)]
       (if (good-enough? guess improved-guess)
