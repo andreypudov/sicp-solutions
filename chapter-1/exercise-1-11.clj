@@ -32,9 +32,9 @@
       (f-iter b c (+ c (* 2 b) (* 3 a)) (dec count))))
   (f-iter 0 1 2 n))
 
-(println (f 0))                           ; 0
-(println (f 1))                           ; 1
-(println (f 2))                           ; 2
-(println (f 3))                           ; 4
-(println (f 4))                           ; 11
-(println (f 5))                           ; 25
+(println (f 0))                         ; 0
+(println (f 1))                         ; 1
+(println (f 2))                         ; 2
+(println (f 3))                         ; 4
+(println (f 4))                         ; 11
+(println (f 5))                         ; 25
