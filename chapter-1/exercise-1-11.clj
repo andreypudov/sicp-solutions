@@ -25,9 +25,6 @@
 (println (f 5))                         ; 25 -> (+ f(4) 2f(3) 3f(2)) -> (+ 11 (* 2 4) (* 3 2)) -> 25
 
 ; A linear iterative process
-; a <- a + 2b + 3c
-; b <- a
-; c <- b
 (defn f [n]
   (defn f-iter [a b c count]
     (if (= count 0)
