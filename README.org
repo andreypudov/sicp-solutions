@@ -5,9 +5,9 @@
 * List of Solutions
 
 ** Chapter 1
-
-| [[./chapter-1/exercise-1-1.clj][1.1]]  | [[./chapter-1/exercise-1-2.clj][1.2]]  | [[./chapter-1/exercise-1-3.clj][1.3]]  | [[./chapter-1/exercise-1-4.clj][1.4]]  | [[./chapter-1/exercise-1-5.clj][1.5]] | [[./chapter-1/exercise-1-6.clj][1.6]] | [[./chapter-1/exercise-1-7.clj][1.7]] | [[./chapter-1/exercise-1-8.clj][1.8]] | [[./chapter-1/exercise-1-9.clj][1.9]] | [[./chapter-1/exercise-1-10.clj][1.10]] |
-| [[./chapter-1/exercise-1-11.clj][1.11]] | [[./chapter-1/exercise-1-12.clj][1.12]] | [[./chapter-1/exercise-1-13.clj][1.13]] | [[./chapter-1/exercise-1-14.clj][1.14]] |     |     |     |     |     |      |
+# [[./chapter-1/exercise-1-14.clj][]]
+| [[./chapter-1/exercise-1-1.clj][1.1]]  | [[./chapter-1/exercise-1-2.clj][1.2]]  | [[./chapter-1/exercise-1-3.clj][1.3]]  | [[./chapter-1/exercise-1-4.clj][1.4]]  | [[./chapter-1/exercise-1-5.clj][1.5]]  | [[./chapter-1/exercise-1-6.clj][1.6]]  | [[./chapter-1/exercise-1-7.clj][1.7]] | [[./chapter-1/exercise-1-8.clj][1.8]] | [[./chapter-1/exercise-1-9.clj][1.9]] | [[./chapter-1/exercise-1-10.clj][1.10]] |
+| [[./chapter-1/exercise-1-11.clj][1.11]] | [[./chapter-1/exercise-1-12.clj][1.12]] | [[./chapter-1/exercise-1-13.clj][1.13]] | [[./chapter-1/exercise-1-14.clj][1.14]] | [[./chapter-1/exercise-1-15.clj][1.15]] | [[./chapter-1/exercise-1-16.clj][1.16]] |     |     |     |      |
 
 * Scheme vs Clojure
 ** define
