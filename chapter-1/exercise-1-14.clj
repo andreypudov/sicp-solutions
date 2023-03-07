@@ -61,10 +61,5 @@
 ;                                                                     /     \
 ;                                                                1 / 0       0 / 1
 ;
-; The orders of growth
-;
-; Θ(n)
-;
-; Number of steps
-;
-; T(n, 5) = Θ(n^5)
+; The order of growth in space: Θ(n)
+; Number of steps: T(n, 5) = Θ(n^5)
