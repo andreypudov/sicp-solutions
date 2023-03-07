@@ -25,10 +25,9 @@
 
 (defn expt [b n]
   (defn expt-iter [a b n]
-    (if (= n 0) a
-        (if (even? n)
-          (expt-iter a (* b b) (/ n 2))
-          (expt-iter (* a b) b (- n 1)))))
+    (cond (= n 0) a
+          (even? n) (expt-iter a (* b b) (/ n 2))
+          :else (expt-iter (* a b) b (- n 1))))
   (expt-iter 1 b n))
 
 (println (expt 2 2))                    ; 4
