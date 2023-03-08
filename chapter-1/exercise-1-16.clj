@@ -15,13 +15,13 @@
 ; ab^n = a(b^2)^(n/2) = a'b'^n'
 ; a' <- a
 ; b' <- b^2
-; n' <- n/2
+; n' <- n / 2
 ;
 ; Odd:
-; ab^n = abb^(n-1) = (ab)b^(n-1) = a'b'^n'
+; ab^n = abb^(n - 1) = (ab)b^(n - 1) = a'b'^n'
 ; a' <- ab
 ; b' <- b
-; b' <- n-1
+; b' <- n - 1
 
 (defn expt [b n]
   (defn expt-iter [a b n]

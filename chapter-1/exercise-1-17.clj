@@ -31,12 +31,12 @@
 (defn double [x] (+ x x))               ; doubles an integer
 (defn halve [x] (/ x 2))                ; divides an (even) integer by 2
 
-;                  b         2
-; a * b = a x (2 * -) = 2a * - =  a' * b'
+;                  b         b
+; a * b = a x (2 * -) = 2a * - = a' * b'
 ;                  2         2
 ;
 ; a' <- 2a
-; b' <- b/2
+; b' <- b / 2
 
 (defn fast-* [a b]
   (cond (= b  0) 0
