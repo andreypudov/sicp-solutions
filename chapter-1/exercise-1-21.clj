@@ -14,6 +14,6 @@
           :else (find-divisor n (+ test-divisor 1))))
   (find-divisor n 2))
 
-(println (smallest-divisor 199))
-(println (smallest-divisor 1999))
-(println (smallest-divisor 19999))
+(println (smallest-divisor 199))        ; 199
+(println (smallest-divisor 1999))       ; 1999
+(println (smallest-divisor 19999))      ; 7
