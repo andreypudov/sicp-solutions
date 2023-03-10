@@ -65,7 +65,7 @@
 (defn search-for-primes [start end]
   (run! timed-prime-test (search-range start end)))
 
-(search-for-primes 1000 1020)           ; ~  40 000 ns
-(search-for-primes 10000 10038)         ; ~  80 000 ns
-(search-for-primes 100000 100044)       ; ~ 100 000 ns
-(search-for-primes 1000000 1000038)     ; ~ 170 000 ns
+(search-for-primes 1000 1020)           ; 1009, 1013, 1019          : ~  40 000 ns
+(search-for-primes 10000 10038)         ; 10007, 10009, 10037       : ~  80 000 ns : ratio 2    < ⎷10
+(search-for-primes 100000 100044)       ; 100003, 100019, 100043    : ~ 100 000 ns : ratio 1.25 < ⎷10
+(search-for-primes 1000000 1000038)     ; 1000003, 1000033, 1000037 : ~ 150 000 ns : ratio 1.5  < ⎷10
