@@ -25,7 +25,6 @@
     (* x x))
 
 (defn expmod [base exp m]
-  (println "expmod" base exp m)
   (cond (= exp 0) 1
 
         (even? exp)
@@ -59,7 +58,6 @@
 
 
 (defn expmod [base exp m]
-  (println "expmod2" base exp m)
   (cond (= exp 0) 1
 
         (even? exp)
