@@ -26,7 +26,7 @@
 (defn carmichael-numbers? [n]
   (defn test-number [n a]
     (cond (= a 1) true
-          (not (= (expmod a n n))) false
+          (not= (expmod a n n)) false
           :else (test-number n (- a 1))))
     (test-number n (- n 1)))
 
