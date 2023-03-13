@@ -24,11 +24,11 @@
         :else (rem (* base (expmod base (- exp 1) m)) m)))
 
 (defn carmichael-numbers? [n]
-  (defn test-number [n a]
+  (defn try-it [n a]
     (cond (= a 1) true
           (not= (expmod a n n)) false
-          :else (test-number n (- a 1))))
-    (test-number n (- n 1)))
+          :else (try-it n (- a 1))))
+    (try-it n (- n 1)))
 
 ; {561 true, 1105 true, 1729 true, 2465 true, 2821 true, 6601 true}
 (println (reduce #(assoc %1 %2 (carmichael-numbers? %2))
