@@ -33,16 +33,18 @@
 (println (integral cube 0 1 0.01))      ; 0.24998750000000042 vs 0.25
 (println (integral cube 0 1 0.001))     ; 0.249999875000001   vs 0.25
 
+
 (defn simpson-integral [f a b n]
   (let [h (/ (- b a) n)]
-    (defn add [x] (+ x h h))
-    (* (+ (f a)
-          (* 2 (sum f a add b))
-          (* 4 (sum f (+ a h) add b))
-          (f b))
+    (defn y [k] (f (+ a (* k h))))
+    (defn add [k] (+ k 2))
+    (* (+ (y 0)
+          (* 4 (sum y 1 add n))
+          (* 2 (sum y 2 add (dec n)))
+          (y n))
        (/ h 3))))
 
-(println                                ; 77/300 => 0.2566666667 vs 0.25
+(println                                ; 1/4 vs 0.25
   (simpson-integral cube 0 1 100))
-(println                                ; 94/375 => 0.2506666667 vs 0.25
+(println                                ; 1/4 vs 0.25
   (simpson-integral cube 0 1 1000))
