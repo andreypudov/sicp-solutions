@@ -26,8 +26,8 @@
       (iter (next a) (+ (term a) result))))
   (iter a 0))
 
-(defn identity [x] x)
 (defn sum-integers [a b]
+  (defn identity [x] x)
   (sum identity a inc b))
 
 (println (sum-integers 1 10))           ; 55 vs 55
