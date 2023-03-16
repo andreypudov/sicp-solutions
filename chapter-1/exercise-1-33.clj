@@ -45,5 +45,5 @@
   (defn relateve-prime? [i] (= (gcd i n) 1))
   (filtered-accumulate * relateve-prime? 1 identity 1 inc n))
 
-(println (sum-squares 1 24))            ; 1557     vs 1557
-(println (product-relative 24))         ; 37182145 vs 37182145
+(println (sum-squares 1 24))            ; 1557
+(println (product-relative 24))         ; 37182145
