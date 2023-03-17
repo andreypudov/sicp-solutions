@@ -56,23 +56,3 @@
 | [[./chapter-5/exercise-5-35.clj][5.31]] | [[./chapter-5/exercise-5-32.clj][5.32]] | [[./chapter-5/exercise-5-33.clj][5.33]] | [[./chapter-5/exercise-5-34.clj][5.34]] | [[./chapter-5/exercise-5-35.clj][5.35]] | [[./chapter-5/exercise-5-36.clj][5.36]] | [[./chapter-5/exercise-5-37.clj][5.37]] | [[./chapter-5/exercise-5-38.clj][5.38]] | [[./chapter-5/exercise-5-39.clj][5.39]] | [[./chapter-5/exercise-5-40.clj][5.40]] |
 | [[./chapter-5/exercise-5-45.clj][5.41]] | [[./chapter-5/exercise-5-42.clj][5.42]] | [[./chapter-5/exercise-5-43.clj][5.43]] | [[./chapter-5/exercise-5-44.clj][5.44]] | [[./chapter-5/exercise-5-45.clj][5.45]] | [[./chapter-5/exercise-5-46.clj][5.46]] | [[./chapter-5/exercise-5-47.clj][5.47]] | [[./chapter-5/exercise-5-48.clj][5.48]] | [[./chapter-5/exercise-5-49.clj][5.49]] | [[./chapter-5/exercise-5-50.clj][5.50]] |
 | [[./chapter-5/exercise-5-55.clj][5.51]] | [[./chapter-5/exercise-5-52.clj][5.52]] |      |      |      |      |      |      |      |      |
-
-* Scheme vs Clojure
-** define
-#+begin_src scheme
-(define a 3)
-#+end_src
-#+begin_src clojure
-(def a 3)
-#+end_src
-** cond
-#+begin_src scheme
-(cond ((= a 4) 6)
-      ((= b 4) (+ 6 7 a))
-      (else 25))
-#+end_src
-#+begin_src clojure
-(cond (= a 4) 6
-      (= b 4) (+ 6 7 a)
-      :else 25)
-#+end_src
