@@ -38,5 +38,5 @@
           (try-it next))))
   (try-it first-guess))
 
-(println                                ; 1.6180327868852458
+(println                                ; 1.6180327868852458 vs 1.6180339887
  (fixed-point #(+ 1 (/ 1 %)) 1.0))
