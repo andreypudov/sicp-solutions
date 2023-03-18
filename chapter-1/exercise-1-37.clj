@@ -47,7 +47,6 @@
 ; iterative process
 (defn cont-frac [n d k]
   (defn iter [i result]
-    (println i result)
     (if (= 0 i)
       result
       (iter (dec i) (/ (n i) (+ result (d i))))))
