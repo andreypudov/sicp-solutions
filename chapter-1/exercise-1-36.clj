@@ -18,7 +18,6 @@
     (< (abs (- v1 v2))
        tolerance))
   (defn try-it [guess]
-    (println guess)
     (let [next (f guess)]
       (if (close-enough? guess next)
           next
