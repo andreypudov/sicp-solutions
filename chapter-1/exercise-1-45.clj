@@ -74,4 +74,4 @@
     (fn [y] (/ x (power y (dec nth)))))
    1.0))
 
-(println (nth-root 2 258))              ; 1.0026902132630033
+(println (nth-root 2 256))              ; 1.0027112765093162
