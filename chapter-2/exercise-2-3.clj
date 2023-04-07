@@ -5,6 +5,8 @@
 ; you design your system with suitable abstraction barriers, so that the same
 ; perimeter and area procedures will work using either representation?
 
+(ns sicp.solutions.chapter-2)
+
 (defn x-point [p] (first p))
 (defn y-point [p] (second p))
 (defn make-point [x y] (list x y))
