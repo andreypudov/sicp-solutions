@@ -29,7 +29,7 @@
 
 (defn * [a b]
   (defn *-iter [n a b]
-    (cond (= b  0) n
+    (cond (= b 0) n
           (even? b) (*-iter n (double a) (halve b))
           :else (*-iter (+ n a) a (- b 1))))
   (*-iter 0 a b))
