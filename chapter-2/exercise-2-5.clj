@@ -7,7 +7,7 @@
 
 (defn cons [a b]
   (int (* (Math/pow 2 a)
-     (Math/pow 3 b))))
+          (Math/pow 3 b))))
 (defn car [p]
   (defn car-iter [p count]
     (if (= 0 (rem p 2))
