@@ -34,7 +34,9 @@
 (def a (make-interval 100 101))
 (def b (make-interval 22 23))
 
-(println (width-interval a))
-(println (width-interval a))
-(println (width-interval (mul-interval a b)))
-(println (width-interval (div-interval a b)))
+(println (width-interval a))            ; 1/2
+(println (width-interval a))            ; 1/2
+(println                                ; 123/2
+ (width-interval (mul-interval a b)))
+(println                                ; 0.12154150197628466
+ (width-interval (div-interval a b)))
