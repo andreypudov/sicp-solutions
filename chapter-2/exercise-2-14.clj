@@ -37,6 +37,8 @@
 ; value. Examine the results of the computation in center-percent form
 ; (see Exercise 2.12).
 
+(ns sicp.solutions.chapter-2)
+
 (defn make-interval [a b] (list a b))
 (defn lower-bound [i] (first i))
 (defn upper-bound [i] (second i))
