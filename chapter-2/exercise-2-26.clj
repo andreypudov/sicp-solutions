@@ -10,6 +10,8 @@
 ; (cons x y)
 ; (list x y)
 
+(ns sicp.solutions.chapter-2)
+
 (def append concat)
 
 (def x (list 1 2 3))

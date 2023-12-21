@@ -24,6 +24,8 @@
 ;                   (list (square (car things)))))))
 ;   (iter items nil))
 
+(ns sicp.solutions.chapter-2)
+
 (defn square [x] (* x x))
 (def car first)
 (def cdr rest)

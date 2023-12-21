@@ -37,6 +37,8 @@
 ; no-more? in terms of primitive operations on list structures. Does the order
 ; of the list coinvalues affect the answer produced by cc? Why or why not?
 
+(ns sicp.solutions.chapter-2)
+
 (def us-coins (list 50 25 10 5 1))
 (def uk-coins (list 100 50 20 10 5 2 1 0.5))
 

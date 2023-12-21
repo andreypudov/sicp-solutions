@@ -34,6 +34,8 @@
 ; (same-parity 2 3 4 5 6 7)
 ; (2 4 6)
 
+(ns sicp.solutions.chapter-2)
+
 (defn same-parity [x & xs]
   (let [parity (even? x)]
     (filter #(= (even? %) parity) (cons x xs))))

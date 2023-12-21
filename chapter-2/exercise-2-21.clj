@@ -15,6 +15,8 @@
 ; (defn square-list [items]
 ;   (map ⟨??⟩ ⟨??⟩))
 
+(ns sicp.solutions.chapter-2)
+
 (defn square-list1 [items]
   (if (empty? items)
     '()

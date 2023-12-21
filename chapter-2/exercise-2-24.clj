@@ -3,6 +3,8 @@
 ; corresponding box-and-pointer structure, and the interpretation of this as a
 ; tree (as in Figure 2.6).
 
+(ns sicp.solutions.chapter-2)
+
 ; (1 (2 (3 4)))
 ;
 ; -> [*|*] -> [*|/]

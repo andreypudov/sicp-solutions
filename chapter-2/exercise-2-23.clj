@@ -14,6 +14,8 @@
 ; The value returned by the call to for-each (not illustrated above) can be
 ; something arbitrary, such as true. Give an implementation of for-each.
 
+(ns sicp.solutions.chapter-2)
+
 (defn for-each [proc items]
   (let [item (first items)]
     (when item
