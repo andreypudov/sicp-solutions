@@ -16,16 +16,6 @@
     (op (first sequence)
         (accumulate op initial (rest sequence)))))
 
-(println
- (accumulate + 0 (list 1 2 3 4 5)))     ; 15
-(println
- (accumulate * 1 (list 1 2 3 4 5)))     ; 120
-(println
- (accumulate
-  cons
-  '()
-  (list 1 2 3 4 5)))                    ; (1 2 3 4 5)
-
 (defn map [p sequence]
   (accumulate #(cons (p %1) %2) '() sequence))
 (defn append [seq1 seq2]
